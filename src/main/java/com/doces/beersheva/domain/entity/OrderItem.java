@@ -9,7 +9,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OrderItem {
-   private List<Product>products;
+   private Product products;
    private  Double productAmount;
+   private int quantity;
 
 }
